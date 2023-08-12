@@ -5,35 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: aqua;
 }
-
 .form{
     margin-top: 5em;
-    border: 1px solid blue;
-    background-color: aqua;
+    background-color: white;
     padding: 3em;
-    
-}
-
-form h1{
-    
+    width: 400px;
+    font-size: 7px;
+    line-height: 3rem;
 }
 P{
     text-transform: capitalize;
-
 }
 .form-wrap{
     display: flex;
     gap: 3rem;
 }
-
 section{
-    line-height: 2em;
+    line-height: 3em;
+}
+h1 {
+    font-size: 11px;
+    font-weight: bolder;
+}
+Label {
+    display:  ;
+}
+button {
+    padding: 10px;
+    margin: 3px solid blue;
 }
